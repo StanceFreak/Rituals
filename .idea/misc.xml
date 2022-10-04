@@ -14,15 +14,22 @@
         <entry key="..\:/CODEIN/Android/personal_projects/Rituals/app/src/main/res/drawable/ic_time.xml" value="0.124" />
         <entry key="..\:/CODEIN/Android/personal_projects/Rituals/app/src/main/res/layout/activity_add_course.xml" value="0.11770833333333333" />
         <entry key="..\:/CODEIN/Android/personal_projects/Rituals/app/src/main/res/layout/activity_add_habit.xml" value="0.11770833333333333" />
+        <entry key="..\:/CODEIN/Android/personal_projects/Rituals/app/src/main/res/layout/activity_add_ritual.xml" value="0.25416666666666665" />
         <entry key="..\:/CODEIN/Android/personal_projects/Rituals/app/src/main/res/layout/activity_count_down.xml" value="0.22826086956521738" />
         <entry key="..\:/CODEIN/Android/personal_projects/Rituals/app/src/main/res/layout/activity_detail_habit.xml" value="0.22826086956521738" />
+        <entry key="..\:/CODEIN/Android/personal_projects/Rituals/app/src/main/res/layout/activity_detail_ritual.xml" value="0.25416666666666665" />
         <entry key="..\:/CODEIN/Android/personal_projects/Rituals/app/src/main/res/layout/activity_habit_list.xml" value="0.22826086956521738" />
         <entry key="..\:/CODEIN/Android/personal_projects/Rituals/app/src/main/res/layout/activity_main.xml" value="0.11770833333333333" />
         <entry key="..\:/CODEIN/Android/personal_projects/Rituals/app/src/main/res/layout/activity_random_habit.xml" value="0.22826086956521738" />
+        <entry key="..\:/CODEIN/Android/personal_projects/Rituals/app/src/main/res/layout/activity_random_ritual.xml" value="0.25416666666666665" />
+        <entry key="..\:/CODEIN/Android/personal_projects/Rituals/app/src/main/res/layout/activity_ritual_list.xml" value="0.25416666666666665" />
         <entry key="..\:/CODEIN/Android/personal_projects/Rituals/app/src/main/res/layout/content_detail_habit.xml" value="0.22826086956521738" />
+        <entry key="..\:/CODEIN/Android/personal_projects/Rituals/app/src/main/res/layout/content_detail_ritual.xml" value="0.25416666666666665" />
         <entry key="..\:/CODEIN/Android/personal_projects/Rituals/app/src/main/res/layout/content_habit.xml" value="0.22826086956521738" />
+        <entry key="..\:/CODEIN/Android/personal_projects/Rituals/app/src/main/res/layout/content_ritual.xml" value="0.25416666666666665" />
         <entry key="..\:/CODEIN/Android/personal_projects/Rituals/app/src/main/res/layout/habit_item.xml" value="0.22826086956521738" />
         <entry key="..\:/CODEIN/Android/personal_projects/Rituals/app/src/main/res/layout/pager_item.xml" value="0.22826086956521738" />
+        <entry key="..\:/CODEIN/Android/personal_projects/Rituals/app/src/main/res/layout/ritual_item.xml" value="0.25416666666666665" />
         <entry key="..\:/CODEIN/Android/personal_projects/Rituals/app/src/main/res/layout/settings_activity.xml" value="0.11770833333333333" />
         <entry key="..\:/CODEIN/Android/personal_projects/Rituals/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.124" />
       </map>
