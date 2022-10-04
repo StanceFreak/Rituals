@@ -1,4 +1,7 @@
 package com.rechit.rituals.ui.detail
 
-class DetailRitualViewModel {
+import androidx.lifecycle.ViewModel
+import com.rechit.rituals.data.RitualRepository
+
+class DetailRitualViewModel(private val ritualRepository: RitualRepository): ViewModel() {
 }

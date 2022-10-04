@@ -5,7 +5,7 @@ import androidx.sqlite.db.SimpleSQLiteQuery
 object SortUtils {
 
     fun getSorteredQuery(filter: RitualSortType): SimpleSQLiteQuery {
-        val simpleQuery = StringBuilder().append("SELECT * FROM habits ")
+        val simpleQuery = StringBuilder().append("SELECT * FROM rituals ")
         when (filter) {
             RitualSortType.START_TIME -> {
                 simpleQuery.append("ORDER BY time(startTime) ASC")

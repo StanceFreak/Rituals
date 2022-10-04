@@ -21,7 +21,7 @@
             android:theme="@style/Theme.Rituals.NoActionBar" />
         <activity
             android:name=".ui.detail.DetailRitualActivity"
-            android:label="@string/title_activity_detail_habit"
+            android:label="@string/title_activity_detail_ritual"
             android:parentActivityName=".ui.list.RitualListActivity"
             android:theme="@style/Theme.Rituals.NoActionBar" />
         <activity

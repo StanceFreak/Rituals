@@ -1,7 +1,7 @@
 package com.rechit.rituals.util
 
 /**
- * Used with the filter spinner in the habit list.
+ * Used with the filter spinner in the ritual list.
  */
 enum class RitualSortType {
     /**

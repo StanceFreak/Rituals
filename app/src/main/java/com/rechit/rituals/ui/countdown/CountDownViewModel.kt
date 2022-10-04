@@ -1,4 +1,7 @@
 package com.rechit.rituals.ui.countdown
 
-class CountDownViewModel {
+import androidx.lifecycle.ViewModel
+import com.rechit.rituals.data.RitualRepository
+
+class CountDownViewModel(private val ritualRepository: RitualRepository): ViewModel() {
 }
