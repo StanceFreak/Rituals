@@ -1,4 +1,7 @@
 package com.rechit.rituals.ui.list
 
-class RitualListViewModel {
+import androidx.lifecycle.ViewModel
+import com.rechit.rituals.data.RitualRepository
+
+class RitualListViewModel(private val ritualRepository: RitualRepository): ViewModel() {
 }
