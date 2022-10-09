@@ -40,7 +40,7 @@ android {
 dependencies {
     ext {
         room_version = "2.4.2"
-        arch_lifecycle_version = '2.4.1'
+        arch_lifecycle_version = "2.4.1"
         lifecycle_version = "2.4.1"
         work_version = "2.7.1"
         preference_version = "1.2.0"
@@ -48,6 +48,7 @@ dependencies {
         viewpager2_version = "1.0.0"
         splash_screen_version = "1.0.0"
         leak_canary_version = "2.9.1"
+        timber_version = "5.0.1"
     }
 
     implementation 'androidx.core:core-ktx:1.7.0'
@@ -78,4 +79,6 @@ dependencies {
     // Size
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
     implementation 'com.intuit.ssp:ssp-android:1.0.6'
+
+    implementation "com.jakewharton.timber:timber:$timber_version"
 }
