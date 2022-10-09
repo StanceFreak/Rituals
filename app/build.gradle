@@ -42,6 +42,7 @@ dependencies {
         preference_version = "1.2.0"
         paging_version = "2.1.2"
         viewpager2_version = "1.0.0"
+        splash_screen_version = "1.0.0"
     }
 
     implementation 'androidx.core:core-ktx:1.7.0'
@@ -64,4 +65,6 @@ dependencies {
 
     implementation "androidx.paging:paging-runtime-ktx:$paging_version"
     implementation "androidx.viewpager2:viewpager2:$viewpager2_version"
+
+    implementation "androidx.core:core-splashscreen:$splash_screen_version"
 }

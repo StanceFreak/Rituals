@@ -2,6 +2,7 @@ package com.rechit.rituals.ui.list
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.RecyclerView
 import com.rechit.rituals.R
@@ -17,6 +18,9 @@ class RitualListActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        installSplashScreen()
+
         setContentView(R.layout.activity_ritual_list)
         setSupportActionBar(findViewById(R.id.toolbar))
 
