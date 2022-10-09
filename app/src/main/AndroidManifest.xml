@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Rituals"
+        android:theme="@style/Theme.Rituals.Starting"
         tools:targetApi="31">
         <activity android:name=".ui.countdown.CountDownActivity" />
         <activity
@@ -34,7 +34,7 @@
             android:name=".ui.list.RitualListActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Rituals.NoActionBar">
+            android:theme="@style/Theme.Rituals.Starting">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

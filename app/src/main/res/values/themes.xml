@@ -23,4 +23,10 @@
 
     <style name="Theme.Rituals.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="Theme.Rituals.Starting" parent="Theme.SplashScreen">
+        <item name="postSplashScreenTheme">@style/Theme.Rituals.NoActionBar</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_dummy_logo</item>
+        <item name="windowSplashScreenBackground">@color/white</item>
+    </style>
+
 </resources>
