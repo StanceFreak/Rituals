@@ -74,4 +74,8 @@ dependencies {
     implementation "androidx.core:core-splashscreen:$splash_screen_version"
 
     debugImplementation "com.squareup.leakcanary:leakcanary-android:$leak_canary_version"
+
+    // Size
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
 }
