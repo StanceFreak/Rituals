@@ -4,9 +4,10 @@ import android.app.Application
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.preference.PreferenceManager
 import com.rechit.rituals.util.DarkMode
+import timber.log.Timber
 import java.util.*
 
-class RitualApplication: Application() {
+class RitualApplication : Application() {
     override fun onCreate() {
         super.onCreate()
 
@@ -17,6 +18,14 @@ class RitualApplication: Application() {
         )?.apply {
             val mode = DarkMode.valueOf(this.uppercase(Locale.US))
             AppCompatDelegate.setDefaultNightMode(mode.value)
+        }
+
+        initTimber()
+    }
+
+    private fun initTimber() {
+        if (BuildConfig.DEBUG) {
+            Timber.plant(Timber.DebugTree())
         }
     }
 }
