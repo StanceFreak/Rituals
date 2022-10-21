@@ -37,6 +37,8 @@
         </com.google.android.material.appbar.CollapsingToolbarLayout>
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_detail_ritual" />
+    <include
+        android:id="@+id/detail_content_layout"
+        layout="@layout/content_detail_ritual" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

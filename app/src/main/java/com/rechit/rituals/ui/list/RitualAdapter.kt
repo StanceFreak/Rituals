@@ -1,5 +1,6 @@
 package com.rechit.rituals.ui.list
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -7,6 +8,7 @@ import com.rechit.rituals.R
 import com.rechit.rituals.data.Ritual
 import com.rechit.rituals.databinding.ContentRitualBinding
 import com.rechit.rituals.databinding.HabitItemBinding
+import com.rechit.rituals.ui.detail.DetailRitualActivity
 import com.rechit.rituals.util.Resource
 
 class RitualAdapter : RecyclerView.Adapter<RitualAdapter.RitualViewHolder>() {
@@ -41,6 +43,12 @@ class RitualAdapter : RecyclerView.Adapter<RitualAdapter.RitualViewHolder>() {
     override fun onBindViewHolder(holder: RitualViewHolder, position: Int) {
         val data = this.ritualData[position]
         holder.bind(data)
+
+        holder.itemView.setOnClickListener {
+            val i = Intent(holder.itemView.context, DetailRitualActivity::class.java)
+            i.putExtra(DetailRitualActivity.DETAIL_EXTRAS, data.id)
+            holder.itemView.context.startActivity(i)
+        }
     }
 
     override fun getItemCount(): Int {
